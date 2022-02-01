@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="854569b0-b34a-4996-a8d1-da4c253c7b0e" name="Changes" comment="" />
+    <list default="true" id="854569b0-b34a-4996-a8d1-da4c253c7b0e" name="Changes" comment="initial commit in master branch">
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/calculations/InterestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/calculations/TransactionFeeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/controller/BranchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/AddAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/AddBranchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/AddCustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/TransactionCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/UpdateAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/UpdateBranchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/dto/UpdateCustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/enums/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/model/Branch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/repository/BranchRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/repository/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/iface/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/iface/BranchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/iface/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/iface/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/impl/BranchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nmbApp/src/main/java/com/nmb/nmbApp/service/impl/TransactionServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nmbApp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -92,7 +124,16 @@
       <workItem from="1643711172104" duration="372000" />
       <workItem from="1643713609256" duration="295000" />
       <workItem from="1643714158128" duration="1847000" />
+      <workItem from="1643716568168" duration="505000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit in master branch">
+      <created>1643716912458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643716912458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit in master branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit in master branch" />
   </component>
 </project>
